@@ -201,7 +201,7 @@ static NSString *const kTokenExchangeRequestException =
                                             redirectURL:_request.redirectURL
                                                clientID:_request.clientID
                                            clientSecret:_request.clientSecret
-                                                  scope:nil
+                                                  scope:@"patient/*.read"
                                            refreshToken:nil
                                            codeVerifier:_request.codeVerifier
                                    additionalParameters:additionalParameters];
